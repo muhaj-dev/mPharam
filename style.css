@@ -209,6 +209,29 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+/* font-size: 90%;
+line-height: 18px; */
+.footer-container div{
+    flex-basis: 30%;
+}
+.footer-container div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 105%;
+}
+.footer-container div h4{
+    margin-top: 10px;
+}
+
+.footer-container ul{
+    flex-basis: 60%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.footer-container ul li{
+    font-family: 'Times New Roman', Times, serif;
+
+}
 /* svg{
     position: absolute;
     z-index: 2;
