@@ -69,7 +69,15 @@ nav{
     max-width: 1200px;
     width: 90%;
 }
-
+.icon{
+    width: 50px;
+    display: none;
+}
+nav .icon > div{
+    border-top: 4px solid black;
+    margin: 4px;
+    width: 25px;
+}
 nav > ul{
     list-style-type: none;
     display: flex;
@@ -119,13 +127,15 @@ div .p{
 .hero-con{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     
 }
 .hero-con p{
     margin: auto;
     width: 70%;
-    line-height: 25px;
+    line-height: 28px;
     font-weight: 700;
     font-size: 130%;
     text-align: center;
@@ -133,8 +143,7 @@ div .p{
 button{
     border: none;
     border-radius: 25px;
-    font-size: 103%;
-    margin: 50px auto;
+    margin: 20px auto;
     color: white;
     padding: 15px 25px;
     background-color: #ff7f27;
@@ -180,7 +189,6 @@ button{
     flex-wrap: wrap;
     text-align: center;
     gap: 5%;
-    /* margin: auto; */
     max-width: 1200px;
 }
 .card{
@@ -246,5 +254,84 @@ button{
 
 
 @media screen and (max-width: 1000px) {
+    .img-con{
+        width: 120%;
+        height: 320px;
+    }
+    nav > ul{
+        width: 80%;
+    }
+    div .p{
+        font-size: 270%;
+        font-weight: 750;
+        width: 75%;
+    }
+    .hero-con p{
+        width: 80%;
+    }
+    .card .card-num{
+        font-size: 6rem;
+    }
+    .footer-container div p{
+        font-size: 102%;
+    }
     
+}
+
+
+@media screen and (max-width: 769px){
+    nav > ul{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    div .p{
+        font-size: 250%;
+        width: 90%;
+    }
+    .img-con{
+        width: 90%;
+        height: 300px;
+        margin: 30px auto;
+    }
+    .hero-1{
+        flex-direction: column;
+    }
+    .hero-con p{
+        font-size: 100%;
+        width: 60%;
+    }
+    .card-wrapper{
+        gap: 5%;
+    }
+    .card{
+        margin: 15px 0 15px 0;
+    }
+    .card .card-num{
+        font-size: 4rem;
+    }
+    .footer-container{
+        align-items: flex-start;
+    }
+    .footer-container div{
+        flex-basis: 50%;
+    }
+    .footer-container div p{
+        font-size: 100%;
+        margin-bottom: 40px;
+    }
+    .footer-container ul{
+        flex-basis: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+    .footer-container ul li{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 769px){
+
 }
