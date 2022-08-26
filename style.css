@@ -22,10 +22,10 @@ html{
     margin-bottom: 30px;
 }
 .red{
-    color: #ec1c24;
+    color: #ff7f27;
 }
 .orange{
-    background-color: orange;
+    background-color: #ffca18;
 }
 .img-con{
     width: 95%;
@@ -36,13 +36,13 @@ img{
     height: 100%;
 }
 .btn-2{
-    background-color: #ec1c24;
+    background-color: #ff7f27;
     border-radius: 20px;
     padding: 10px 15px;
     color: white;
 }
 .btn{
-    background-color: #ec1c24;
+    background-color: #ff7f27;
     border-radius: 20px;
     padding: 10px 15px;
     color: white;
@@ -129,15 +129,37 @@ button{
     margin: 50px auto;
     color: white;
     padding: 15px 25px;
-    background-color: #ec1c24;
+    background-color: #ff7f27;
 }
 .info-1{
     padding: 40px 20px;
 }
-
-.para{
-    /* text-align: center; */
-    /* width: 90%; */
-    /* margin: auto; */
-    /* background-color: #ec1c24; */
+.info-1 .para{
+    text-align: center;
+    width: 90%;
+    font-size: 105%;
+    line-height: 23px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+.two{
+    border: 1px grey solid;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+.two > .para{
+    width: 55%;
+}
+.p-2{
+    font-weight: bold;
+    font-size: 105%;
+    text-align: center;
+    width: 90%;
+    line-height: 23px;
+    margin: auto;
+    margin-bottom: 20px;
 }
