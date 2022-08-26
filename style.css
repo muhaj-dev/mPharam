@@ -17,9 +17,12 @@ html{
 .red{
     color: #ec1c24;
 }
+.orange{
+    background-color: orange;
+}
 .img-con{
     width: 95%;
-    height: 400px;
+    height: 360px;
 }
 img{
     width: 100%;
@@ -92,7 +95,8 @@ div .p{
     font-weight: 600;
 }
 .hero-1{
-    margin: 50px auto;
+    margin: 20px auto;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,18 +105,17 @@ div .p{
 .hero-con{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .hero-con p{
     margin: auto;
-    width: 50%;
+    width: 70%;
     line-height: 25px;
     font-weight: 700;
     font-size: 130%;
     text-align: center;
-    /* background-color: #ec1c24; */
 }
 button{
-    /* margin-top: 70px; */
     border: none;
     border-radius: 25px;
     font-size: 103%;
