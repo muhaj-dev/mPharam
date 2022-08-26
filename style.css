@@ -229,8 +229,7 @@ line-height: 18px; */
     justify-content: space-between;
 }
 .footer-container ul li{
-    font-family: 'Times New Roman', Times, serif;
-
+    font-weight: 600;
 }
 /* svg{
     position: absolute;
