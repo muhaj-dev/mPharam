@@ -8,6 +8,9 @@
 html{
     font-size: 1rem;
 }
+body{
+    background-color: #e6e6e6;
+}
 *{
     margin: 0;
     padding: 0;
@@ -163,3 +166,57 @@ button{
     margin: auto;
     margin-bottom: 20px;
 }
+.card-wrapper{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5%;
+}
+.card{
+    background-color: white;
+    margin: 20px 0 20px 0;
+}
+.card .card-num{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff7f27;
+    font-size: 7rem;
+    margin: 25px auto;
+}
+.card-text{
+    font-weight: 600;
+    margin: 30px auto;
+}
+.c1{
+    flex-basis: 35%;
+}
+.c2{
+    flex-basis: 60%;
+}
+.footer{
+    padding: 50px;
+    background-color: #585858;
+    /* height: 100px; */
+    color: white;
+}
+.footer h1{
+    color: #ff7f27;
+}
+.footer-container{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* svg{
+    position: absolute;
+    z-index: 2;
+}
+.svg{
+    z-index: 10;
+    color: #000;
+    height: 50px;
+    width: 100%;
+}
+ */
