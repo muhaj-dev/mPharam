@@ -18,8 +18,8 @@ html{
     color: #ec1c24;
 }
 .img-con{
-    width: 450px;
-    height: 450px;
+    width: 95%;
+    height: 400px;
 }
 img{
     width: 100%;
@@ -92,5 +92,32 @@ div .p{
     font-weight: 600;
 }
 .hero-1{
+    margin: 50px auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.hero-con{
+    display: flex;
+    flex-direction: column;
+}
+.hero-con p{
+    margin: auto;
+    width: 50%;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 130%;
+    text-align: center;
+    /* background-color: #ec1c24; */
+}
+button{
+    /* margin-top: 70px; */
+    border: none;
+    border-radius: 25px;
+    font-size: 103%;
+    margin: 50px auto;
+    color: white;
+    padding: 15px 25px;
+    background-color: #ec1c24;
 }
