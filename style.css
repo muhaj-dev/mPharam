@@ -37,12 +37,14 @@ img{
     border-radius: 20px;
     padding: 10px 15px;
     color: white;
+    transition: all .2s;
 }
 .btn{
     background-color: #ff7f27;
     border-radius: 20px;
     padding: 10px 15px;
     color: white;
+    transition: all .2s;
 }
 .nav-menu .btn:hover{
     border: 2px solid #ff7f27;
@@ -161,6 +163,7 @@ button{
     color: white;
     padding: 15px 25px;
     background-color: #ff7f27;
+    transition: all .2s;
 }
 button:hover{
     border: 2px solid #ff7f27;
