@@ -61,14 +61,25 @@ nav{
     justify-content: space-between;
     max-width: 1200px;
     width: 90%;
+    position: fixed;
+    z-index: 30;
 }
-.icon{
-    width: 50px;
+label #open, 
+label #close{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+}
+#check{
     display: none;
 }
-nav .icon > div{
+#close{
+    font-size: 2rem;
+    font-weight: 600;
+}
+nav #open > div{
     border-top: 4px solid black;
-    margin: 4px;
+    margin: 4px auto;
     width: 25px;
 }
 nav > ul{
@@ -273,12 +284,66 @@ button{
 
 
 @media screen and (max-width: 769px){
-    nav > ul{
+    nav {
+        position: relative;
+    }
+    label #open {
+        display: block;
+        z-index: 20;
+        right: 1px;
+    }
+    #close{
+        display: none;  
+        z-index: 20;
+        right: 1px;
+        font-style: normal;
+        color: white;
+    }
+    #check{
         display: none;
     }
-    .icon{
+
+    .nav-menu {
+        display: block;
+        background-color: #585858;
+        opacity: .96;
+        width: 100%;
+        height: 96vh;
+        border-radius: 10px;
+        position: absolute;
+        top: 35%;
+        left: -130%;
+        transition: all .3s;
+        z-index: 10;
+    }
+    .nav-menu li {
+        text-align: center;
+        display: block;
+        line-height: 10px;
+        letter-spacing: 1px;
+        margin: 65px 0;
+        z-index: 25;
+        color: white;
+    }
+    .nav-menu .btn{
+        padding: 20px;
+        border-radius: 30px;
+        width: fit-content;
+        margin: 65px auto;
+    }
+    #check:checked ~ ul {
+        left: 3%;
+    }
+    #check:checked ~ label #open{
+        display: none;
+    }
+    #check:checked ~ label #close{
         display: block;
     }
+
+
+
+
     div .p{
         font-size: 250%;
         width: 93%;
