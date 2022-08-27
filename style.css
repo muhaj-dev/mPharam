@@ -61,7 +61,11 @@ nav{
     justify-content: space-between;
     max-width: 1200px;
     width: 90%;
+}
+.nav-con{
     position: fixed;
+    background-color: white;
+    width: 100%;
     z-index: 30;
 }
 label #open, 
@@ -291,10 +295,12 @@ button{
         display: block;
         z-index: 20;
         right: 1px;
+        top: 20px;
     }
     #close{
         display: none;  
         z-index: 20;
+        top: 20px;
         right: 1px;
         font-style: normal;
         color: white;
@@ -307,11 +313,11 @@ button{
         display: block;
         background-color: #585858;
         opacity: .96;
-        width: 100%;
-        height: 96vh;
+        width: 102%;
+        height: 98vh;
         border-radius: 10px;
         position: absolute;
-        top: 35%;
+        top: 20%;
         left: -130%;
         transition: all .3s;
         z-index: 10;
