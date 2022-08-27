@@ -1,5 +1,6 @@
 html{
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #e6e6e6;
@@ -42,6 +43,11 @@ img{
     border-radius: 20px;
     padding: 10px 15px;
     color: white;
+}
+.nav-menu .btn:hover{
+    border: 2px solid #ff7f27;
+    background-color: transparent;
+    color: black;
 }
 
 header{
@@ -155,6 +161,11 @@ button{
     color: white;
     padding: 15px 25px;
     background-color: #ff7f27;
+}
+button:hover{
+    border: 2px solid #ff7f27;
+    background-color: transparent;
+    color: black;
 }
 .info-1{
     padding: 40px 20px;
@@ -290,6 +301,10 @@ button{
 @media screen and (max-width: 769px){
     nav {
         position: relative;
+    }
+   
+    .nav-menu .btn:hover{
+        color: white;
     }
     label #open {
         display: block;
