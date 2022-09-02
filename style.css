@@ -123,6 +123,7 @@ div .p{
     font-size: 300%;
     font-weight: 750;
     width: 60%;
+    text-align: center;
 }
 .name{
     position: absolute;
