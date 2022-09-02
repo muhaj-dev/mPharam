@@ -64,8 +64,11 @@ header{
 
 .nav-con{
     width: 100vw;
+    background-color: white;
     display: flex;
     justify-content: center;
+    position: fixed;
+    z-index: 30;
 }
 
 nav{
@@ -75,8 +78,6 @@ nav{
     justify-content: space-between;
     max-width: 1200px;
     width: 90%;
-    position: fixed;
-    z-index: 30;
 }
 label #open, 
 label #close{
