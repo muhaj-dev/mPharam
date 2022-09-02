@@ -59,22 +59,23 @@ header{
     background-color: black;
     background-position: center;
     width: 100%;
-    height: 650px;
+    height: 100vh;
+}
+
+.nav-con{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
-    margin: auto;
     padding: 20px 0;
     align-items: center;
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     width: 90%;
-}
-.nav-con{
     position: fixed;
-    background-color: white;
-    width: 100%;
     z-index: 30;
 }
 label #open, 
@@ -104,29 +105,30 @@ nav > ul{
     justify-content: space-between;
     padding: 8px 10px;
 }
+
 .header-content{
-    position: relative;
-    height: 100%;
-    margin: auto;
     max-width: 1200px;
-    width: 90%;
 }
+
 .header-content div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
-    width: 100%;
+    flex-direction: column;
 }
 div .p{
     font-size: 300%;
     font-weight: 750;
     width: 60%;
 }
-.header-content > p{
+.name{
+    position: absolute;
+    bottom: 20px;
     text-align: end;
-    width: 80%;
-    margin: auto;
+    width: 85%;
     font-size: 90%;
     letter-spacing: 1px;
     font-weight: 600;
