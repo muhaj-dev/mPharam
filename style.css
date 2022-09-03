@@ -248,14 +248,16 @@ button:hover{
 .footer-wrapper{
     max-width: 1200px;
     width: 100%;
-    margin: auto;
-    padding: 40px;
+    /* margin: auto; */
+    padding: 40px 50px;
 }
 .footer h1{
     color: #ff7f27;
 }
 .footer-container{
     margin: 20px auto;
+    width: 100%;
+    /* background-color: #ff7f27; */
     display: flex;
     justify-content: space-between;
     align-items: center;
