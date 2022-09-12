@@ -4,6 +4,29 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Style on how to center text into a background image without using position */
+
+main{
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    place-items: center;
+    isolation: isolate;
+}
+main > h1{
+    color: #e6e6e6;
+    background-color: #ff7f27;
+    text-align: center;
+    width: 90%;
+}
+main > *{
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+main > img{
+    z-index: -1;
+}
 html{
     font-size: 1rem;
     scroll-behavior: smooth;
